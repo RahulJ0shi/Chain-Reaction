@@ -1,0 +1,70 @@
+body {
+    background-color:white;
+}
+canvas
+{
+	background-color: black;
+	display:block;
+}
+
+
+.rainbow-text{
+	font-family: Monospace;
+	font-size: 300%;
+	-webkit-animation:colorchange 3s infinite alternate;
+}
+
+
+  @-webkit-keyframes colorchange {
+	0% {
+	  
+	  color: rgb(0, 255, 0);
+	}
+	
+	26% {
+	  
+	  color: #f3ff0e;
+	}
+	
+	51% {
+	  color: #ff4242;
+	}
+	
+	76% { 
+	  color: #5defff;
+	}
+	
+	100% {
+	  
+	  color: rgb(55, 255, 0);
+	}
+/* 	
+	50% {
+	  
+	  color: #ff9100;
+	}
+	
+	60% {
+	  
+	  color: rgb(255, 0, 0);
+	}
+	
+	70% {
+	  
+	  color: #ff0040;
+	}
+	80% {
+   
+	  color: #e90ff1;
+	}
+	
+	90% {
+   
+	  color: #7d5dff;
+	}
+	
+	100% {
+	  
+	  color: rgb(192, 215, 255);
+	} */
+  }
